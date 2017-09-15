@@ -25,24 +25,30 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public Student[] getStudents() {
-		// Add your implementation here
+          int students[5]={1,2,3,4,5};
+           if(i=0)
+{
 		return null;
+}
 	}
 
 	@Override
 	public void setStudents(Student[] students) {
-		// Add your implementation here
+		  if(i<0 || i>=students)
+{
+               return null;
+
 	}
 
 	@Override
 	public Student getStudent(int index) {
-		// Add your implementation here
+	    for(i=0;i<=5:<i++)
 		return null;
 	}
 
 	@Override
 	public void setStudent(Student student, int index) {
-		// Add your implementation here
+		
 	}
 
 	@Override
